@@ -1,0 +1,346 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Understanding IEC 60601-1 for Medical Power Supplies - MOPP, MOOP &amp; Leakage | Manufacturing Insights Hub</title>
+    <meta name="description" content="Ensuring that a medical power supply meets recognized safety certifications is essential, not only for regulatory compliance but also for protecting patients and medical staff. Certified power supplies provide confidence that the device has undergone rigorous testing for electrical safety, isolation, and reliability—critical factors in life-critical and patient-facing equipment. Selecting a power supply without proper certification can lead to safety risks, regulatory delays, and potential liability issues." />
+    <meta property="og:title" content="Understanding IEC 60601-1 for Medical Power Supplies - MOPP, MOOP &amp; Leakage | Manufacturing Insights Hub" />
+    <meta property="og:description" content="Ensuring that a medical power supply meets recognized safety certifications is essential, not only for regulatory compliance but also for protecting patients and medical staff. Certified power supplies provide confidence that the device has undergone rigorous testing for electrical safety, isolation, and reliability—critical factors in life-critical and patient-facing equipment. Selecting a power supply without proper certification can lead to safety risks, regulatory delays, and potential liability issues." />
+    <meta property="og:url" content="/knowledge/understanding-iec-60601-1-for-medical-power-supplies-mopp-moop-leakage/" />
+    <!-- Google Tag Manager -->
+    <script>
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != "dataLayer" ? "&l=" + l : "";
+        j.async = true;
+        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, "script", "dataLayer", "GTM-NDDB38B4");
+    </script>
+    <!-- End Google Tag Manager -->
+    <link rel="icon" href="/assets/images/Stacked%20Logo%20-%20Transparent.png" type="image/png" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="/assets/site.62474503020f.css" />
+  </head>
+  <body class="bg-[var(--color-background)] text-[var(--color-text)]">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+      <iframe
+        src="https://www.googletagmanager.com/ns.html?id=GTM-NDDB38B4"
+        height="0"
+        width="0"
+        style="display: none; visibility: hidden"
+      ></iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <a
+      class="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-50 focus:rounded-lg focus:bg-white focus:px-4 focus:py-2 focus:text-sm focus:text-slate-900 focus:shadow"
+      href="#main-content"
+    >
+      Skip to main content
+    </a>
+    <div id="main-content">
+      <header class="sticky top-0 z-40 border-b border-slate-200 bg-white/80 backdrop-blur">
+  <nav class="mx-auto flex max-w-7xl flex-wrap items-center gap-3 gap-y-2 px-2 py-3 sm:px-3 sm:py-4 lg:px-4 md:flex-nowrap" aria-label="Primary">
+    <a class="flex min-w-0 items-center gap-3" href="/" aria-label="Back to home">
+      <img
+        class="h-12 w-auto shrink-0 object-contain sm:h-16 lg:h-[72px]"
+        src="/assets/images/Stacked%20Logo%20-%20Transparent.png"
+        alt="Manufacturing Insights Hub logo"
+      />
+      <div class="min-w-0">
+        <p class="text-base font-semibold leading-tight sm:text-lg">Manufacturing Insights Hub</p>
+        <p class="text-xs text-slate-500 sm:text-sm hidden sm:block">Your Gateway to Manufacturing Insights and Innovations</p>
+      </div>
+    </a>
+    <div class="hidden flex-1 justify-center md:flex">
+      <div class="nav-scroll flex items-center gap-2 overflow-x-auto whitespace-nowrap pb-1">
+        <a class="rounded-full border px-3 py-1 text-sm font-medium transition-colors duration-200 border-transparent text-slate-600 hover:border-blue-600 hover:text-blue-600" href="/exhibition/">Exhibition</a><a class="rounded-full border px-3 py-1 text-sm font-medium transition-colors duration-200 border-transparent text-slate-600 hover:border-blue-600 hover:text-blue-600" href="/firm-news/">Firm News</a><a class="rounded-full border px-3 py-1 text-sm font-medium transition-colors duration-200 border-blue-600 bg-blue-50 text-blue-700" href="/knowledge/">Knowledge</a><a class="rounded-full border px-3 py-1 text-sm font-medium transition-colors duration-200 border-transparent text-slate-600 hover:border-blue-600 hover:text-blue-600" href="/market-trends/">Market Trends</a>
+      </div>
+    </div>
+    <div class="flex items-center gap-2 sm:gap-3">
+      <button
+        class="inline-flex h-11 cursor-pointer items-center gap-2 rounded-full border border-slate-300 px-2 text-xs uppercase tracking-[0.2em] transition-colors duration-200 hover:border-blue-600 hover:text-blue-600 sm:px-4"
+        data-search-open
+        type="button"
+        aria-haspopup="dialog"
+        aria-controls="search-modal"
+        aria-label="Open search"
+      >
+        <svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <circle cx="11" cy="11" r="7"></circle>
+          <line x1="20" y1="20" x2="16.5" y2="16.5"></line>
+        </svg>
+        <span class="hidden sm:inline">Search</span>
+      </button>
+      <button
+        class="inline-flex h-11 w-11 cursor-pointer items-center justify-center rounded-full border border-slate-300 text-slate-700 transition-colors duration-200 hover:border-blue-600 hover:text-blue-600 md:hidden"
+        type="button"
+        data-nav-toggle
+        aria-controls="primary-navigation"
+        aria-expanded="false"
+        aria-label="Toggle menu"
+      >
+        <svg class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <line x1="4" y1="7" x2="20" y2="7"></line>
+          <line x1="4" y1="12" x2="20" y2="12"></line>
+          <line x1="4" y1="17" x2="20" y2="17"></line>
+        </svg>
+      </button>
+    </div>
+  </nav>
+  <div class="border-t border-slate-200 bg-white/95 md:hidden" data-nav-menu id="primary-navigation" hidden>
+    <div class="mx-auto flex max-w-7xl flex-wrap items-center gap-2 px-2 py-3 sm:px-3 lg:px-4">
+      <a class="rounded-full border px-3 py-1 text-sm font-medium transition-colors duration-200 border-transparent text-slate-600 hover:border-blue-600 hover:text-blue-600" href="/exhibition/">Exhibition</a><a class="rounded-full border px-3 py-1 text-sm font-medium transition-colors duration-200 border-transparent text-slate-600 hover:border-blue-600 hover:text-blue-600" href="/firm-news/">Firm News</a><a class="rounded-full border px-3 py-1 text-sm font-medium transition-colors duration-200 border-blue-600 bg-blue-50 text-blue-700" href="/knowledge/">Knowledge</a><a class="rounded-full border px-3 py-1 text-sm font-medium transition-colors duration-200 border-transparent text-slate-600 hover:border-blue-600 hover:text-blue-600" href="/market-trends/">Market Trends</a>
+    </div>
+  </div>
+</header>
+
+<main class="mx-auto max-w-6xl px-3 sm:px-4 lg:px-6 py-12">
+  <div class="grid gap-8 lg:grid-cols-[minmax(0,1fr)_240px]">
+    <article>
+      <div class="mb-4 flex justify-start">
+    <nav aria-label="Breadcrumb" class="text-xs text-slate-500">
+      <div class="flex flex-wrap items-center justify-end gap-x-2 gap-y-1"><a class="hover:text-blue-600" href="/">Home</a><span class="text-slate-300">/</span><a class="hover:text-blue-600" href="/knowledge/">Knowledge</a><span class="text-slate-300">/</span><span class="text-slate-900" aria-current="page">Understanding IEC 60601-1 for Medical Power Supplies - MOPP, MOOP &amp; Leakage</span></div>
+    </nav>
+  </div>
+      <div class="lg:hidden mt-6 rounded border border-slate-200 p-4">
+        <button
+          type="button"
+          class="flex w-full items-center justify-between text-sm font-semibold"
+          data-toc-toggle
+          aria-expanded="false"
+        >
+          <span>Table of Contents</span>
+          <span class="text-slate-500">Toggle</span>
+        </button>
+        <div class="mt-3" data-toc-panel hidden aria-hidden="true">
+          <ul class="space-y-2 text-sm text-slate-600">
+          <li>
+            <a data-toc-link="why-iec-60601-1-matters" class="hover:text-blue-600" href="#why-iec-60601-1-matters">Why IEC 60601-1 Matters</a>
+          </li>
+          <li>
+            <a data-toc-link="key-concepts-of-iec-60601-1-mopp-vs-moop" class="hover:text-blue-600" href="#key-concepts-of-iec-60601-1-mopp-vs-moop">Key Concepts of IEC 60601-1: MOPP vs. MOOP</a>
+          </li>
+          <li>
+            <a data-toc-link="leakage-current-in-iec-60601-1" class="hover:text-blue-600" href="#leakage-current-in-iec-60601-1">Leakage Current in IEC 60601-1</a>
+          </li>
+          <li>
+            <a data-toc-link="recommended-medical-power-supply-provider-edac-power-electronics-co-ltd" class="hover:text-blue-600" href="#recommended-medical-power-supply-provider-edac-power-electronics-co-ltd">Recommended Medical Power Supply Provider: EDAC POWER Electronics Co., Ltd.</a>
+          </li>
+          <li>
+            <a data-toc-link="ensuring-safety-and-compliance-in-medical-power-supplies" class="hover:text-blue-600" href="#ensuring-safety-and-compliance-in-medical-power-supplies">Ensuring Safety and Compliance in Medical Power Supplies</a>
+          </li></ul>
+        </div>
+      </div>
+      <div>
+        <h1 class="text-3xl font-semibold">Understanding IEC 60601-1 for Medical Power Supplies - MOPP, MOOP &amp; Leakage</h1>
+        <p class="text-sm text-slate-500">Oct 07, 2025</p>
+      </div>
+      <div class="prose prose-slate mt-8 max-w-none"><p>Ensuring that a medical power supply meets recognized safety certifications is essential, not only for regulatory compliance but also for protecting patients and medical staff. Certified power supplies provide confidence that the device has undergone rigorous testing for electrical safety, isolation, and reliability—critical factors in life-critical and patient-facing equipment. Selecting a power supply without proper certification can lead to safety risks, regulatory delays, and potential liability issues.</p>
+<p>Compliance with <strong>IEC 60601-1</strong> is a fundamental requirement for medical electrical equipment, including power supplies. The standard establishes essential safety criteria to protect patients and operators from electrical hazards. Key concepts such as <strong>MOPP (Means of Patient Protection)</strong>, <strong>MOOP (Means of Operator Protection)</strong>, and <strong>leakage current</strong> play a central role in ensuring these protections. Understanding these terms is critical for evaluating the safety, design, and certification of medical power supplies.</p>
+<p><img src="https://www.edac.com.tw/storage/media/banner/banner01.jpg" alt="Medical Power Supply"></p>
+<hr>
+<h2 id="why-iec-60601-1-matters">Why IEC 60601-1 Matters</h2>
+<ul>
+<li>
+<p><strong>Global acceptance</strong>: Compliance is often mandatory for market access in Europe, the U.S., and Asia, ensuring that medical devices meet internationally recognized safety standards.</p>
+</li>
+<li>
+<p><strong>Patient safety</strong>: Power supplies directly affect shock, fire, and electromagnetic safety, making proper certification essential for protecting both patients and healthcare professionals.</p>
+</li>
+<li>
+<p><strong>Product lifecycle</strong>: Certification can be costly and time-consuming. Aligning with the correct version of IEC 60601-1 early in the design process helps prevent expensive redesigns or delays in device approval.</p>
+</li>
+</ul>
+<p>Understanding the standard’s terminology—such as <strong>MOPP, MOOP, and leakage current</strong>—is crucial for evaluating a medical power supply’s safety and suitability. These concepts provide insight into how well a device isolates electrical hazards from patients and operators, and how effectively it limits leakage currents to safe levels. It ensures that devices not only meet regulatory requirements but also maintain high standards of <strong>reliability, performance, and user safety</strong> throughout their operational life.</p>
+<hr>
+<h2 id="key-concepts-of-iec-60601-1-mopp-vs-moop">Key Concepts of IEC 60601-1: MOPP vs. MOOP</h2>
+<p>IEC 60601-1 introduces the idea of <strong>Means of Protection (MOP)</strong>. These protections ensure safety for both patients and operators.</p>
+<table>
+<thead>
+<tr>
+<th>Term</th>
+<th>Definition</th>
+<th>Application</th>
+<th>Example</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>MOPP (Means of Patient Protection)</strong></td>
+<td>Enhanced isolation and insulation levels required to protect patients directly connected to equipment</td>
+<td>Life-support systems, ECG monitors, infusion pumps</td>
+<td>Requires greater creepage/clearance distances and lower leakage</td>
+</tr>
+<tr>
+<td><strong>MOOP (Means of Operator Protection)</strong></td>
+<td>Isolation requirements aimed at protecting medical staff operating the equipment</td>
+<td>Diagnostic devices, imaging consoles</td>
+<td>Less stringent than MOPP but still regulated</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Why it matters:</strong><br>
+Choosing a power supply certified for 2xMOPP ensures the highest level of patient protection, as it provides double insulation and reinforced isolation between the electrical circuit and the patient. This is particularly critical for devices that have direct patient contact, such as ventilators, infusion pumps, and patient monitoring systems. However, achieving 2xMOPP compliance often requires additional insulation barriers, spacing, and design complexity, which can increase the size, weight, and cost of the power supply.</p>
+<p>For devices that do not come into direct contact with patients—such as imaging control modules or hospital infrastructure equipment—MOOP (Means of Operator Protection) compliance may be sufficient. MOOP focuses on protecting the operator from electrical hazards rather than the patient, allowing for more compact and cost-effective designs while still meeting safety regulations.</p>
+<hr>
+<h2 id="leakage-current-in-iec-60601-1">Leakage Current in IEC 60601-1</h2>
+<p>Leakage current is the small electrical current that flows through insulation or stray paths. In medical applications, this current must be tightly controlled:</p>
+<ul>
+<li><strong>Patient leakage current limit</strong>: Typically ≤ 100 µA (varies by standard edition).</li>
+<li><strong>Touch current limit</strong>: Protects operators from unintended current when touching equipment surfaces.</li>
+</ul>
+<p><strong>Impact:</strong></p>
+<ul>
+<li>Excess leakage current can cause discomfort, interference with medical measurements, or even patient risk.</li>
+<li>Power supplies must be designed with filters, insulation, and grounding strategies to meet these limits.</li>
+</ul>
+<hr>
+<h2 id="recommended-medical-power-supply-provider-edac-power-electronics-co-ltd">Recommended Medical Power Supply Provider: EDAC POWER Electronics Co., Ltd.</h2>
+<p><a href="https://www.edac.com.tw/" target="_blank" rel="noopener noreferrer">EDAC POWER Electronics Co., Ltd.<svg class="ml-1 inline h-3 w-3 text-slate-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 3h7v7"></path><path d="M10 14L21 3"></path><path d="M5 7v14h14v-7"></path></svg></a> is a leading provider of <strong><a href="https://www.edac.com.tw/en/applications/medical-power" target="_blank" rel="noopener noreferrer">IEC 60601-1 certified medical power supplies<svg class="ml-1 inline h-3 w-3 text-slate-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 3h7v7"></path><path d="M10 14L21 3"></path><path d="M5 7v14h14v-7"></path></svg></a></strong> for a wide range of healthcare devices. Their products are designed to meet strict safety, isolation, and reliability standards, ensuring safe operation in patient-facing and life-critical equipment.</p>
+<p>EDAC POWER’s portfolio includes solutions for devices such as <a href="https://www.edac.com.tw/en/applications/cpap-and-oxygen-concentrator-power" target="_blank" rel="noopener noreferrer">CPAP machines, oxygen concentrators<svg class="ml-1 inline h-3 w-3 text-slate-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 3h7v7"></path><path d="M10 14L21 3"></path><path d="M5 7v14h14v-7"></path></svg></a>, etc., combining high efficiency, compact size, and compliance with regulatory requirements. The company also leverages <strong>GaN (Gallium Nitride) technology</strong>, enabling smaller, lighter, and more efficient power modules that maintain robust isolation and thermal performance. By choosing EDAC POWER’s certified medical power supplies, designers and healthcare providers can confidently integrate reliable and safe power solutions into their devices.</p>
+<hr>
+<h2 id="ensuring-safety-and-compliance-in-medical-power-supplies">Ensuring Safety and Compliance in Medical Power Supplies</h2>
+<p>Grasping the concepts of MOPP, MOOP, and leakage current is essential for ensuring medical device safety and achieving regulatory compliance. Being aware of these factors allows for smarter design decisions, ensuring that devices meet safety standards without compromising performance or integration flexibility. It also supports long-term reliability, as well-designed power supplies reduce the risk of electrical faults, interference, and potential hazards to patients and operators. Ultimately, a thorough understanding of MOPP, MOOP, and leakage requirements helps create medical equipment that is not only compliant but also safer, more efficient, and better suited for modern healthcare environments.</p>
+<hr>
+<h3>References</h3>
+<ul>
+<li><a href="https://www.iec.ch/dyn/www/f?p=103:23:0" target="_blank" rel="noopener noreferrer">IEC 60601-1 Standard Overview – IEC<svg class="ml-1 inline h-3 w-3 text-slate-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 3h7v7"></path><path d="M10 14L21 3"></path><path d="M5 7v14h14v-7"></path></svg></a></li>
+<li><a href="https://www.fda.gov/" target="_blank" rel="noopener noreferrer">FDA Guidance on Medical Electrical Equipment<svg class="ml-1 inline h-3 w-3 text-slate-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 3h7v7"></path><path d="M10 14L21 3"></path><path d="M5 7v14h14v-7"></path></svg></a></li>
+<li><a href="https://www.ul.com/resources/iec-60601-1-medical-electrical-equipment-standard" target="_blank" rel="noopener noreferrer">Medical Standards Explained – UL<svg class="ml-1 inline h-3 w-3 text-slate-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 3h7v7"></path><path d="M10 14L21 3"></path><path d="M5 7v14h14v-7"></path></svg></a></li>
+</ul>
+</div>
+      
+          <nav class="mt-12 border-t border-slate-200 pt-6">
+            <div class="flex flex-col gap-4 sm:flex-row sm:items-start sm:justify-between">
+              <div class="sm:w-1/2">
+                <a class="group inline-flex flex-col gap-1 text-sm" href="/knowledge/why-wire-harnesses-matter-key-advantages-for-oemodm-procurement-design-teams/">
+                      <span class="text-xs font-semibold uppercase tracking-wide text-slate-500">[Previous Article]</span>
+                      <span class="font-semibold text-slate-900 group-hover:text-blue-600">Why Wire Harnesses Matter: Key Advantages for OEM/ODM Procurement &amp; Design Teams</span>
+                    </a>
+              </div>
+              <div class="sm:w-1/2 sm:text-right">
+                <a class="group inline-flex flex-col gap-1 text-sm" href="/knowledge/oil-mist-collectors-how-manufacturers-choose-install-and-maintain-the-right-system/">
+                      <span class="text-xs font-semibold uppercase tracking-wide text-slate-500">[Next Articles]</span>
+                      <span class="font-semibold text-slate-900 group-hover:text-blue-600">Oil Mist Collectors: How Manufacturers Choose, Install, And Maintain The Right System</span>
+                    </a>
+              </div>
+            </div>
+          </nav>
+        
+    </article>
+    <aside class="hidden lg:block sticky top-24 h-fit">
+      <p class="text-sm font-semibold">Table of Contents</p>
+      <ul class="mt-2 space-y-2">
+          <li>
+            <a data-toc-link="why-iec-60601-1-matters" class="hover:text-blue-600" href="#why-iec-60601-1-matters">Why IEC 60601-1 Matters</a>
+          </li>
+          <li>
+            <a data-toc-link="key-concepts-of-iec-60601-1-mopp-vs-moop" class="hover:text-blue-600" href="#key-concepts-of-iec-60601-1-mopp-vs-moop">Key Concepts of IEC 60601-1: MOPP vs. MOOP</a>
+          </li>
+          <li>
+            <a data-toc-link="leakage-current-in-iec-60601-1" class="hover:text-blue-600" href="#leakage-current-in-iec-60601-1">Leakage Current in IEC 60601-1</a>
+          </li>
+          <li>
+            <a data-toc-link="recommended-medical-power-supply-provider-edac-power-electronics-co-ltd" class="hover:text-blue-600" href="#recommended-medical-power-supply-provider-edac-power-electronics-co-ltd">Recommended Medical Power Supply Provider: EDAC POWER Electronics Co., Ltd.</a>
+          </li>
+          <li>
+            <a data-toc-link="ensuring-safety-and-compliance-in-medical-power-supplies" class="hover:text-blue-600" href="#ensuring-safety-and-compliance-in-medical-power-supplies">Ensuring Safety and Compliance in Medical Power Supplies</a>
+          </li></ul>
+    </aside>
+  </div>
+</main>
+
+    </div>
+    
+    <footer class="border-t border-slate-200 bg-white">
+      <div class="mx-auto max-w-7xl px-2 py-12 sm:px-3 lg:px-4">
+        <div class="grid gap-8 md:grid-cols-[minmax(0,1.2fr)_minmax(0,2fr)]">
+          <div class="space-y-4">
+            <a class="flex items-center gap-3" href="/" aria-label="Back to home">
+              <img class="h-10 w-auto" src="/assets/images/Stacked%20Logo%20-%20Transparent.png" alt="Manufacturing Insights Hub logo">
+              <div>
+                <p class="text-sm font-semibold">Manufacturing Insights Hub</p>
+                <p class="text-xs text-slate-500">Your Gateway to Manufacturing Insights and Innovations</p>
+              </div>
+            </a>
+          </div>
+          <div class="grid gap-8 md:grid-cols-2">
+            <div class="space-y-3">
+              <p class="text-xs font-semibold uppercase tracking-[0.25em] text-slate-400">Categories</p>
+              <nav class="grid gap-2"><a class="text-sm text-slate-600 hover:text-blue-600" href="/exhibition/">Exhibition</a><a class="text-sm text-slate-600 hover:text-blue-600" href="/firm-news/">Firm News</a><a class="text-sm text-slate-600 hover:text-blue-600" href="/knowledge/">Knowledge</a><a class="text-sm text-slate-600 hover:text-blue-600" href="/market-trends/">Market Trends</a></nav>
+            </div>
+            
+        <div class="space-y-3">
+          <p class="text-xs font-semibold uppercase tracking-[0.25em] text-slate-400">Exhibition</p>
+          <nav class="grid gap-2"><a class="text-sm text-slate-600 hover:text-blue-600" href="/exhibition/asia/">Asia</a><a class="text-sm text-slate-600 hover:text-blue-600" href="/exhibition/americas/">Americas</a><a class="text-sm text-slate-600 hover:text-blue-600" href="/exhibition/europe/">Europe</a><a class="text-sm text-slate-600 hover:text-blue-600" href="/exhibition/africa/">Africa</a><a class="text-sm text-slate-600 hover:text-blue-600" href="/exhibition/middle-east/">Middle East</a><a class="text-sm text-slate-600 hover:text-blue-600" href="/exhibition/oceania/">Oceania</a></nav>
+        </div>
+      
+          </div>
+        </div>
+        <p class="mt-10 text-xs text-slate-400">Copyright © Manufacturing Insights Hub. All rights reserved.</p>
+        <p class="mt-2 text-xs text-slate-400">Relative Platform of <a class="underline hover:text-blue-600" href="https://www.market-prospects.com/">Market Prospects</a>.</p>
+      </div>
+    </footer>
+  
+    <div
+      id="search-modal"
+      class="fixed inset-0 z-50 hidden overscroll-contain"
+      data-search-modal
+      aria-hidden="true"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="search-modal-title"
+    >
+      <button
+        class="absolute inset-0 bg-slate-950/40"
+        type="button"
+        data-search-overlay
+        aria-label="Close search"
+      ></button>
+      <div class="relative mx-auto flex min-h-full max-w-2xl items-center justify-center px-6">
+        <div class="flex max-h-[calc(100vh-6rem)] w-full flex-col rounded-2xl border border-slate-200 bg-white p-6 shadow-xl">
+          <div class="flex items-center justify-between">
+            <div>
+              <p class="text-xs uppercase tracking-[0.3em] text-slate-400">Search</p>
+              <h2 class="mt-2 text-xl font-semibold" id="search-modal-title">
+                Find a Report or Vendor
+              </h2>
+            </div>
+            <button
+              class="rounded-full border border-slate-300 px-3 py-1 text-xs uppercase tracking-[0.2em] transition-colors duration-200 hover:border-blue-600 hover:text-blue-600"
+              data-search-close
+              type="button"
+            >
+              Close
+            </button>
+          </div>
+          <input
+            class="mt-6 w-full rounded-xl border border-slate-300 px-4 py-3 text-sm"
+            type="search"
+            name="search"
+            autocomplete="off"
+            placeholder="Search by company, category, or keyword… e.g. gearboxes"
+            data-search-input
+            aria-label="Search reports and vendors"
+          />
+          <p
+            class="mt-3 text-xs uppercase tracking-[0.2em] text-slate-400"
+            data-search-count
+            aria-live="polite"
+          ></p>
+          <ul class="mt-6 min-h-0 flex-1 space-y-4 overflow-y-auto pr-2" data-search-results></ul>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="/assets/search.61597a69ffdc.js" defer></script>
+    <script src="/assets/nav.8431637c67e5.js" defer></script>
+    <script src="/assets/toc.168ce7a6341d.js" defer></script>
+    <script src="/assets/carousel.429be3078b2d.js" defer></script>
+  </body>
+</html>
