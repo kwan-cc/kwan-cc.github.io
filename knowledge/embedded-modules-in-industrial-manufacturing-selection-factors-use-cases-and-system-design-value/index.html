@@ -1,0 +1,336 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Embedded Modules in Industrial Manufacturing: Selection Factors, Use Cases, and System Design Value | Manufacturing Insights Hub</title>
+    <meta name="description" content="Learn what embedded modules are, why they matter in industrial manufacturing, and how to evaluate them for scalable smart devices, edge systems, and long term product development." />
+    <meta property="og:title" content="Embedded Modules in Industrial Manufacturing: Selection Factors, Use Cases, and System Design Value | Manufacturing Insights Hub" />
+    <meta property="og:description" content="Learn what embedded modules are, why they matter in industrial manufacturing, and how to evaluate them for scalable smart devices, edge systems, and long term product development." />
+    <meta property="og:url" content="/knowledge/embedded-modules-in-industrial-manufacturing-selection-factors-use-cases-and-system-design-value/" />
+    <!-- Google Tag Manager -->
+    <script>
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != "dataLayer" ? "&l=" + l : "";
+        j.async = true;
+        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, "script", "dataLayer", "GTM-NDDB38B4");
+    </script>
+    <!-- End Google Tag Manager -->
+    <link rel="icon" href="/assets/images/Stacked%20Logo%20-%20Transparent.png" type="image/png" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="/assets/site.62474503020f.css" />
+  </head>
+  <body class="bg-[var(--color-background)] text-[var(--color-text)]">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+      <iframe
+        src="https://www.googletagmanager.com/ns.html?id=GTM-NDDB38B4"
+        height="0"
+        width="0"
+        style="display: none; visibility: hidden"
+      ></iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <a
+      class="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-50 focus:rounded-lg focus:bg-white focus:px-4 focus:py-2 focus:text-sm focus:text-slate-900 focus:shadow"
+      href="#main-content"
+    >
+      Skip to main content
+    </a>
+    <div id="main-content">
+      <header class="sticky top-0 z-40 border-b border-slate-200 bg-white/80 backdrop-blur">
+  <nav class="mx-auto flex max-w-7xl flex-wrap items-center gap-3 gap-y-2 px-2 py-3 sm:px-3 sm:py-4 lg:px-4 md:flex-nowrap" aria-label="Primary">
+    <a class="flex min-w-0 items-center gap-3" href="/" aria-label="Back to home">
+      <img
+        class="h-12 w-auto shrink-0 object-contain sm:h-16 lg:h-[72px]"
+        src="/assets/images/Stacked%20Logo%20-%20Transparent.png"
+        alt="Manufacturing Insights Hub logo"
+      />
+      <div class="min-w-0">
+        <p class="text-base font-semibold leading-tight sm:text-lg">Manufacturing Insights Hub</p>
+        <p class="text-xs text-slate-500 sm:text-sm hidden sm:block">Your Gateway to Manufacturing Insights and Innovations</p>
+      </div>
+    </a>
+    <div class="hidden flex-1 justify-center md:flex">
+      <div class="nav-scroll flex items-center gap-2 overflow-x-auto whitespace-nowrap pb-1">
+        <a class="rounded-full border px-3 py-1 text-sm font-medium transition-colors duration-200 border-transparent text-slate-600 hover:border-blue-600 hover:text-blue-600" href="/exhibition/">Exhibition</a><a class="rounded-full border px-3 py-1 text-sm font-medium transition-colors duration-200 border-transparent text-slate-600 hover:border-blue-600 hover:text-blue-600" href="/firm-news/">Firm News</a><a class="rounded-full border px-3 py-1 text-sm font-medium transition-colors duration-200 border-blue-600 bg-blue-50 text-blue-700" href="/knowledge/">Knowledge</a><a class="rounded-full border px-3 py-1 text-sm font-medium transition-colors duration-200 border-transparent text-slate-600 hover:border-blue-600 hover:text-blue-600" href="/market-trends/">Market Trends</a>
+      </div>
+    </div>
+    <div class="flex items-center gap-2 sm:gap-3">
+      <button
+        class="inline-flex h-11 cursor-pointer items-center gap-2 rounded-full border border-slate-300 px-2 text-xs uppercase tracking-[0.2em] transition-colors duration-200 hover:border-blue-600 hover:text-blue-600 sm:px-4"
+        data-search-open
+        type="button"
+        aria-haspopup="dialog"
+        aria-controls="search-modal"
+        aria-label="Open search"
+      >
+        <svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <circle cx="11" cy="11" r="7"></circle>
+          <line x1="20" y1="20" x2="16.5" y2="16.5"></line>
+        </svg>
+        <span class="hidden sm:inline">Search</span>
+      </button>
+      <button
+        class="inline-flex h-11 w-11 cursor-pointer items-center justify-center rounded-full border border-slate-300 text-slate-700 transition-colors duration-200 hover:border-blue-600 hover:text-blue-600 md:hidden"
+        type="button"
+        data-nav-toggle
+        aria-controls="primary-navigation"
+        aria-expanded="false"
+        aria-label="Toggle menu"
+      >
+        <svg class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <line x1="4" y1="7" x2="20" y2="7"></line>
+          <line x1="4" y1="12" x2="20" y2="12"></line>
+          <line x1="4" y1="17" x2="20" y2="17"></line>
+        </svg>
+      </button>
+    </div>
+  </nav>
+  <div class="border-t border-slate-200 bg-white/95 md:hidden" data-nav-menu id="primary-navigation" hidden>
+    <div class="mx-auto flex max-w-7xl flex-wrap items-center gap-2 px-2 py-3 sm:px-3 lg:px-4">
+      <a class="rounded-full border px-3 py-1 text-sm font-medium transition-colors duration-200 border-transparent text-slate-600 hover:border-blue-600 hover:text-blue-600" href="/exhibition/">Exhibition</a><a class="rounded-full border px-3 py-1 text-sm font-medium transition-colors duration-200 border-transparent text-slate-600 hover:border-blue-600 hover:text-blue-600" href="/firm-news/">Firm News</a><a class="rounded-full border px-3 py-1 text-sm font-medium transition-colors duration-200 border-blue-600 bg-blue-50 text-blue-700" href="/knowledge/">Knowledge</a><a class="rounded-full border px-3 py-1 text-sm font-medium transition-colors duration-200 border-transparent text-slate-600 hover:border-blue-600 hover:text-blue-600" href="/market-trends/">Market Trends</a>
+    </div>
+  </div>
+</header>
+
+<main class="mx-auto max-w-6xl px-3 sm:px-4 lg:px-6 py-12">
+  <div class="grid gap-8 lg:grid-cols-[minmax(0,1fr)_240px]">
+    <article>
+      <div class="mb-4 flex justify-start">
+    <nav aria-label="Breadcrumb" class="text-xs text-slate-500">
+      <div class="flex flex-wrap items-center justify-end gap-x-2 gap-y-1"><a class="hover:text-blue-600" href="/">Home</a><span class="text-slate-300">/</span><a class="hover:text-blue-600" href="/knowledge/">Knowledge</a><span class="text-slate-300">/</span><span class="text-slate-900" aria-current="page">Embedded Modules in Industrial Manufacturing: Selection Factors, Use Cases, and System Design Value</span></div>
+    </nav>
+  </div>
+      <div class="lg:hidden mt-6 rounded border border-slate-200 p-4">
+        <button
+          type="button"
+          class="flex w-full items-center justify-between text-sm font-semibold"
+          data-toc-toggle
+          aria-expanded="false"
+        >
+          <span>Table of Contents</span>
+          <span class="text-slate-500">Toggle</span>
+        </button>
+        <div class="mt-3" data-toc-panel hidden aria-hidden="true">
+          <ul class="space-y-2 text-sm text-slate-600">
+          <li>
+            <a data-toc-link="what-is-an-embedded-module" class="hover:text-blue-600" href="#what-is-an-embedded-module">What Is an Embedded Module</a>
+          </li>
+          <li>
+            <a data-toc-link="why-embedded-modules-matter-in-industrial-manufacturing" class="hover:text-blue-600" href="#why-embedded-modules-matter-in-industrial-manufacturing">Why Embedded Modules Matter in Industrial Manufacturing</a>
+          </li>
+          <li>
+            <a data-toc-link="common-use-cases-in-industrial-environments" class="hover:text-blue-600" href="#common-use-cases-in-industrial-environments">Common Use Cases in Industrial Environments</a>
+          </li>
+          <li>
+            <a data-toc-link="key-factors-in-module-selection" class="hover:text-blue-600" href="#key-factors-in-module-selection">Key Factors in Module Selection</a>
+          </li>
+          <li>
+            <a data-toc-link="why-source-based-evaluation-matters" class="hover:text-blue-600" href="#why-source-based-evaluation-matters">Why Source Based Evaluation Matters</a>
+          </li>
+          <li>
+            <a data-toc-link="the-role-of-embedded-modules-in-edge-intelligence" class="hover:text-blue-600" href="#the-role-of-embedded-modules-in-edge-intelligence">The Role of Embedded Modules in Edge Intelligence</a>
+          </li>
+          <li>
+            <a data-toc-link="conclusion" class="hover:text-blue-600" href="#conclusion">Conclusion</a>
+          </li></ul>
+        </div>
+      </div>
+      <div>
+        <h1 class="text-3xl font-semibold">Embedded Modules in Industrial Manufacturing: Selection Factors, Use Cases, and System Design Value</h1>
+        <p class="text-sm text-slate-500">Apr 15, 2026</p>
+      </div>
+      <div class="prose prose-slate mt-8 max-w-none"><p><img src="http://products.com.tw/wp-content/uploads/2026/04/embedded-modules-in-industrial-manufacturing.jpeg" alt=""></p>
+<p>Industrial manufacturing is becoming more connected, more intelligent, and more dependent on compact computing platforms that can be deployed reliably over time. As equipment makers and solution providers expand into smart devices, embedded modules are becoming an important part of system planning.</p>
+<p>An embedded module allows manufacturers to build connected products without designing every core computing function from the beginning. In industrial settings, this can reduce development burden while supporting product consistency, lifecycle planning, and faster deployment.</p>
+<h2 id="what-is-an-embedded-module">What Is an Embedded Module</h2>
+<p>An embedded module is a compact computing unit that integrates essential hardware such as the processor, memory, storage, power management, and common input and output interfaces. In practice, the concept often overlaps with terms such as System on Module and Computer on Module.</p>
+<p>A useful way to understand the category is to see it as a reusable computing core that sits inside a larger finished device. This architecture lets engineering teams separate the core processing design from the application specific carrier board and enclosure.</p>
+<p>That general definition is consistent across multiple public sources. IBM describes embedded systems as purpose built computing systems designed to perform dedicated functions within larger devices or machines, while the <a href="https://en.wikipedia.org/wiki/System_on_module" target="_blank" rel="noopener noreferrer">Wikipedia overview of System on Module<svg class="ml-1 inline h-3 w-3 text-slate-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 3h7v7"></path><path d="M10 14L21 3"></path><path d="M5 7v14h14v-7"></path></svg></a> explains how a module integrates core processing and support components into a board level unit for embedded applications. In a more deployment focused explanation, <a href="https://www.innocomm.com/en/news/news/content/what-is-an-embedded-module" target="_blank" rel="noopener noreferrer">this technical guide on how embedded modules are evaluated for AIoT hardware selection<svg class="ml-1 inline h-3 w-3 text-slate-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 3h7v7"></path><path d="M10 14L21 3"></path><path d="M5 7v14h14v-7"></path></svg></a> highlights the role of module architecture in balancing performance, stability, and production readiness.</p>
+<h2 id="why-embedded-modules-matter-in-industrial-manufacturing">Why Embedded Modules Matter in Industrial Manufacturing</h2>
+<p>In industrial manufacturing, hardware selection is shaped by more than processor performance. Product teams also need to think about reliability, environmental fit, software maturity, and long term supply continuity.</p>
+<p>Embedded modules matter because they can help manage these demands more efficiently.</p>
+<h3>Shorter development cycles</h3>
+<p>With a pre integrated computing core, engineering teams do not need to redesign the most complex parts of the hardware stack for every new device. This can reduce the time required for validation and speed up the path from concept to production.</p>
+<h3>Lower engineering complexity</h3>
+<p>Processor integration, memory routing, power design, and signal integrity require specialized expertise. A module based design reduces this burden and allows teams to focus on product level differentiation, interface planning, and application integration.</p>
+<h3>Better lifecycle support</h3>
+<p>Industrial devices often remain in service for many years. That makes hardware stability and revision management especially important. A well supported module platform can help manufacturers maintain consistency across product generations and service cycles.</p>
+<h3>More efficient scaling across product lines</h3>
+<p>Many industrial companies build several products that share similar computing needs. Embedded modules make it easier to reuse a common processing architecture while adapting peripherals and mechanical design for different use cases.</p>
+<h2 id="common-use-cases-in-industrial-environments">Common Use Cases in Industrial Environments</h2>
+<p>Embedded modules are used in a wide range of industrial and adjacent sectors. Typical applications include:</p>
+<ul>
+<li>industrial control panels</li>
+<li>smart factory gateways</li>
+<li>machine vision terminals</li>
+<li>edge AI inspection systems</li>
+<li>connected kiosks and smart retail equipment</li>
+<li>fleet and mobility devices</li>
+<li>medical and regulated equipment</li>
+</ul>
+<p>In each case, the module serves as the processing core, while the surrounding system is customized for the operational setting.</p>
+<h2 id="key-factors-in-module-selection">Key Factors in Module Selection</h2>
+<p>Selecting an embedded module requires a practical view of deployment conditions, workload needs, and long term support expectations.</p>
+<h3>Compute requirements</h3>
+<p>The module should fit the intended workload. Basic control functions may only need low power processing, while HMI devices, gateways, and multimedia systems may require stronger operating system support and greater performance. AI based use cases may also require dedicated acceleration for inference tasks.</p>
+<h3>Environmental conditions</h3>
+<p>Industrial deployments may expose hardware to heat, vibration, dust, humidity, or continuous operation. Module selection should reflect the real conditions of the final product environment.</p>
+<h3>Interface and connectivity support</h3>
+<p>Industrial products often depend on a specific set of interfaces, including USB, serial communication, Ethernet, display support, wireless communication, or camera inputs. Compatibility at this level can significantly affect development speed and system reliability.</p>
+<h3>Software readiness</h3>
+<p>Hardware capability alone is not enough. Board Support Package quality, driver stability, operating system support, and update management all affect long term field performance. This is especially important in industrial applications where downtime has a direct operational cost.</p>
+<h3>Supply continuity</h3>
+<p>Long term availability and controlled revision changes are critical in manufacturing. Even a technically strong module can become a risk if supply planning is uncertain.</p>
+<h2 id="why-source-based-evaluation-matters">Why Source Based Evaluation Matters</h2>
+<p>Technical buying decisions are stronger when they are grounded in more than one type of source. Broad industry references help define the category, while deployment oriented sources help explain how these modules are evaluated in real product programs.</p>
+<p>In this case, the broader framework comes from publicly accessible references on embedded systems and System on Module design. The more application focused perspective comes from a source that outlines how module selection affects product stability, integration risk, and manufacturing readiness in AIoT hardware planning. Bringing those viewpoints together creates a clearer basis for decision making.</p>
+<h2 id="the-role-of-embedded-modules-in-edge-intelligence">The Role of Embedded Modules in Edge Intelligence</h2>
+<p>Industrial systems are moving toward real time analytics, local automation, and on device decision making. As more processing shifts closer to the edge, manufacturers need hardware platforms that can support higher performance without creating excessive design complexity.</p>
+<p>This is one reason embedded modules continue to gain importance. They offer a practical path for building intelligent devices that remain maintainable, repeatable, and commercially viable at scale.</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>Embedded modules have become an important part of industrial manufacturing because they support a more efficient path to smart product development. They help reduce core design complexity, improve reuse across product lines, and align computing capability with real deployment needs.</p>
+<p>For manufacturers evaluating future device platforms, the key question is not only how much performance a module can deliver, but how well it supports reliability, integration, lifecycle planning, and long term production goals.</p>
+</div>
+      
+          <nav class="mt-12 border-t border-slate-200 pt-6">
+            <div class="flex flex-col gap-4 sm:flex-row sm:items-start sm:justify-between">
+              <div class="sm:w-1/2">
+                <a class="group inline-flex flex-col gap-1 text-sm" href="/knowledge/the-future-of-color-precision-meeting-pharmaceutical-and-legal-print-standards/">
+                      <span class="text-xs font-semibold uppercase tracking-wide text-slate-500">[Previous Article]</span>
+                      <span class="font-semibold text-slate-900 group-hover:text-blue-600">The Future of Color Precision: Meeting Pharmaceutical and Legal Print Standards</span>
+                    </a>
+              </div>
+              <div class="sm:w-1/2 sm:text-right">
+                <a class="group inline-flex flex-col gap-1 text-sm" href="/knowledge/corrugated-floor-protectors-in-2026-selection-guide-for-construction-projects/">
+                      <span class="text-xs font-semibold uppercase tracking-wide text-slate-500">[Next Articles]</span>
+                      <span class="font-semibold text-slate-900 group-hover:text-blue-600">Corrugated Floor Protectors in 2026: Selection Guide for Construction Projects</span>
+                    </a>
+              </div>
+            </div>
+          </nav>
+        
+    </article>
+    <aside class="hidden lg:block sticky top-24 h-fit">
+      <p class="text-sm font-semibold">Table of Contents</p>
+      <ul class="mt-2 space-y-2">
+          <li>
+            <a data-toc-link="what-is-an-embedded-module" class="hover:text-blue-600" href="#what-is-an-embedded-module">What Is an Embedded Module</a>
+          </li>
+          <li>
+            <a data-toc-link="why-embedded-modules-matter-in-industrial-manufacturing" class="hover:text-blue-600" href="#why-embedded-modules-matter-in-industrial-manufacturing">Why Embedded Modules Matter in Industrial Manufacturing</a>
+          </li>
+          <li>
+            <a data-toc-link="common-use-cases-in-industrial-environments" class="hover:text-blue-600" href="#common-use-cases-in-industrial-environments">Common Use Cases in Industrial Environments</a>
+          </li>
+          <li>
+            <a data-toc-link="key-factors-in-module-selection" class="hover:text-blue-600" href="#key-factors-in-module-selection">Key Factors in Module Selection</a>
+          </li>
+          <li>
+            <a data-toc-link="why-source-based-evaluation-matters" class="hover:text-blue-600" href="#why-source-based-evaluation-matters">Why Source Based Evaluation Matters</a>
+          </li>
+          <li>
+            <a data-toc-link="the-role-of-embedded-modules-in-edge-intelligence" class="hover:text-blue-600" href="#the-role-of-embedded-modules-in-edge-intelligence">The Role of Embedded Modules in Edge Intelligence</a>
+          </li>
+          <li>
+            <a data-toc-link="conclusion" class="hover:text-blue-600" href="#conclusion">Conclusion</a>
+          </li></ul>
+    </aside>
+  </div>
+</main>
+
+    </div>
+    
+    <footer class="border-t border-slate-200 bg-white">
+      <div class="mx-auto max-w-7xl px-2 py-12 sm:px-3 lg:px-4">
+        <div class="grid gap-8 md:grid-cols-[minmax(0,1.2fr)_minmax(0,2fr)]">
+          <div class="space-y-4">
+            <a class="flex items-center gap-3" href="/" aria-label="Back to home">
+              <img class="h-10 w-auto" src="/assets/images/Stacked%20Logo%20-%20Transparent.png" alt="Manufacturing Insights Hub logo">
+              <div>
+                <p class="text-sm font-semibold">Manufacturing Insights Hub</p>
+                <p class="text-xs text-slate-500">Your Gateway to Manufacturing Insights and Innovations</p>
+              </div>
+            </a>
+          </div>
+          <div class="grid gap-8 md:grid-cols-2">
+            <div class="space-y-3">
+              <p class="text-xs font-semibold uppercase tracking-[0.25em] text-slate-400">Categories</p>
+              <nav class="grid gap-2"><a class="text-sm text-slate-600 hover:text-blue-600" href="/exhibition/">Exhibition</a><a class="text-sm text-slate-600 hover:text-blue-600" href="/firm-news/">Firm News</a><a class="text-sm text-slate-600 hover:text-blue-600" href="/knowledge/">Knowledge</a><a class="text-sm text-slate-600 hover:text-blue-600" href="/market-trends/">Market Trends</a></nav>
+            </div>
+            
+        <div class="space-y-3">
+          <p class="text-xs font-semibold uppercase tracking-[0.25em] text-slate-400">Exhibition</p>
+          <nav class="grid gap-2"><a class="text-sm text-slate-600 hover:text-blue-600" href="/exhibition/asia/">Asia</a><a class="text-sm text-slate-600 hover:text-blue-600" href="/exhibition/americas/">Americas</a><a class="text-sm text-slate-600 hover:text-blue-600" href="/exhibition/europe/">Europe</a><a class="text-sm text-slate-600 hover:text-blue-600" href="/exhibition/africa/">Africa</a><a class="text-sm text-slate-600 hover:text-blue-600" href="/exhibition/middle-east/">Middle East</a><a class="text-sm text-slate-600 hover:text-blue-600" href="/exhibition/oceania/">Oceania</a></nav>
+        </div>
+      
+          </div>
+        </div>
+        <p class="mt-10 text-xs text-slate-400">Copyright © Manufacturing Insights Hub. All rights reserved.</p>
+        <p class="mt-2 text-xs text-slate-400">Relative Platform of <a class="underline hover:text-blue-600" href="https://www.market-prospects.com/">Market Prospects</a>.</p>
+      </div>
+    </footer>
+  
+    <div
+      id="search-modal"
+      class="fixed inset-0 z-50 hidden overscroll-contain"
+      data-search-modal
+      aria-hidden="true"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="search-modal-title"
+    >
+      <button
+        class="absolute inset-0 bg-slate-950/40"
+        type="button"
+        data-search-overlay
+        aria-label="Close search"
+      ></button>
+      <div class="relative mx-auto flex min-h-full max-w-2xl items-center justify-center px-6">
+        <div class="flex max-h-[calc(100vh-6rem)] w-full flex-col rounded-2xl border border-slate-200 bg-white p-6 shadow-xl">
+          <div class="flex items-center justify-between">
+            <div>
+              <p class="text-xs uppercase tracking-[0.3em] text-slate-400">Search</p>
+              <h2 class="mt-2 text-xl font-semibold" id="search-modal-title">
+                Find a Report or Vendor
+              </h2>
+            </div>
+            <button
+              class="rounded-full border border-slate-300 px-3 py-1 text-xs uppercase tracking-[0.2em] transition-colors duration-200 hover:border-blue-600 hover:text-blue-600"
+              data-search-close
+              type="button"
+            >
+              Close
+            </button>
+          </div>
+          <input
+            class="mt-6 w-full rounded-xl border border-slate-300 px-4 py-3 text-sm"
+            type="search"
+            name="search"
+            autocomplete="off"
+            placeholder="Search by company, category, or keyword… e.g. gearboxes"
+            data-search-input
+            aria-label="Search reports and vendors"
+          />
+          <p
+            class="mt-3 text-xs uppercase tracking-[0.2em] text-slate-400"
+            data-search-count
+            aria-live="polite"
+          ></p>
+          <ul class="mt-6 min-h-0 flex-1 space-y-4 overflow-y-auto pr-2" data-search-results></ul>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="/assets/search.61597a69ffdc.js" defer></script>
+    <script src="/assets/nav.8431637c67e5.js" defer></script>
+    <script src="/assets/toc.168ce7a6341d.js" defer></script>
+    <script src="/assets/carousel.429be3078b2d.js" defer></script>
+  </body>
+</html>
