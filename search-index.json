@@ -1,5 +1,180 @@
 [
   {
+    "title": "Four-Post Lift Structural Certification and Safety Standards for Commercial Garages",
+    "description": "What ANSI/ALI ALCTV and CE/EN 1493 certification actually verify on a four-post lift, and what documentation garage owners should request before buying.",
+    "category": "Knowledge",
+    "subcategory": "",
+    "path": "/knowledge/four-post-lift-structural-certification-and-safety-standards-for-commercial-garages/"
+  },
+  {
+    "title": "PP Corrugated Board Manufacturing Process and Quality Control Standards Explained",
+    "description": "How PP corrugated board is extruded and calibrated, and which dimensional, weight, and crush-resistance QC checks buyers should verify before ordering.",
+    "category": "Knowledge",
+    "subcategory": "",
+    "path": "/knowledge/pp-corrugated-board-manufacturing-process-and-quality-control-standards-explained/"
+  },
+  {
+    "title": "Variable vs Fixed Displacement Vane Pumps: Energy Efficiency Trade-offs",
+    "description": "Compare variable and fixed displacement vane pumps on energy loss, heat generation, control complexity, and total cost to select the right hydraulic pump.",
+    "category": "Market Trends",
+    "subcategory": "",
+    "path": "/market-trends/variable-vs-fixed-displacement-vane-pumps-energy-efficiency-trade-offs/"
+  },
+  {
+    "title": "AAPEX 2026: Automotive Aftermarket Parts, Service & Supply Chain",
+    "description": "AAPEX 2026 takes place Nov. 3-5 in Las Vegas, connecting automotive aftermarket suppliers, distributors, retailers and repair professionals across key product categories.",
+    "category": "Exhibition",
+    "subcategory": "Americas",
+    "path": "/exhibition/americas/aapex-2026-automotive-aftermarket-parts-service-supply-chain/"
+  },
+  {
+    "title": "PACK EXPO International 2026: Packaging & Automation Trends",
+    "description": "PACK EXPO International 2026 takes place Oct. 18–21 in Chicago, connecting packaging, processing, automation and materials buyers at McCormick Place.",
+    "category": "Exhibition",
+    "subcategory": "Americas",
+    "path": "/exhibition/americas/pack-expo-international-2026-packaging-automation-trends/"
+  },
+  {
+    "title": "glasstec 2026: Glass Processing, Façades & Decarbonisation",
+    "description": "glasstec 2026 runs 20 to 23 October in Düsseldorf, linking glass production, processing, façades, AI, circularity and lower-carbon manufacturing.",
+    "category": "Exhibition",
+    "subcategory": "Europe",
+    "path": "/exhibition/europe/glasstec-2026-glass-processing-faades-decarbonisation/"
+  },
+  {
+    "title": "Internal vs. External Circlip Pliers: Tip Geometry & Access",
+    "description": "Learn how internal and external circlip pliers differ, why tip diameter and angle matter, and how ring access affects controlled installation and removal.",
+    "category": "Knowledge",
+    "subcategory": "",
+    "path": "/knowledge/internal-vs-external-circlip-pliers-tip-geometry-access/"
+  },
+  {
+    "title": "Why Y-Strainers Raise Pressure Drop as Screens Load",
+    "description": "Learn why Y-strainer pressure drop increases as debris loads the screen, how flow and free area affect differential pressure, and when maintenance should be scheduled.",
+    "category": "Knowledge",
+    "subcategory": "",
+    "path": "/knowledge/why-y-strainers-raise-pressure-drop-as-screens-load/"
+  },
+  {
+    "title": "How Hybrid Diamond-CBN Grinding Wheels Improve CNC Tool Grinding",
+    "description": "Learn how hybrid Diamond-CBN grinding wheels can improve flute grinding, heat management, wheel profile retention, and production efficiency in five-axis CNC tool grinding.",
+    "category": "Knowledge",
+    "subcategory": "",
+    "path": "/knowledge/how-hybrid-diamond-cbn-grinding-wheels-improve-cnc-tool-grinding/"
+  },
+  {
+    "title": "Level VI vs. CoC Tier 2: Navigating Global Energy Efficiency Standards for Industrial Power Adapters",
+    "description": "Understand the differences between US DoE Level VI and EU CoC Tier 2 for industrial power adapters, and how standby power and active-mode efficiency influence compliance, certification, and long-term cost control.",
+    "category": "Knowledge",
+    "subcategory": "",
+    "path": "/knowledge/level-vi-vs-coc-tier-2-navigating-global-energy-efficiency-standards-for-industrial-power-adapters/"
+  },
+  {
+    "title": "Defense and Military: Hydraulic Systems for Vehicles and Ground Support Equipment",
+    "description": "AnyPower develops compact servo hydraulic systems for non-weapon military vehicles and ground support equipment, with Taiwan-based engineering, application-specific design and traceability documentation.",
+    "category": "Knowledge",
+    "subcategory": "",
+    "path": "/knowledge/defense-and-military-hydraulic-systems-for-vehicles-and-ground-support-equipment/"
+  },
+  {
+    "title": "Preventing Electrostatic Discharge (ESD): Why Anti-Static PET Films Are Crucial for Semiconductor Packaging",
+    "description": "Understand how electrostatic discharge damages semiconductor packaging during shipping and assembly, and how anti-static PET films with controlled surface resistivity help reduce risk.",
+    "category": "Knowledge",
+    "subcategory": "",
+    "path": "/knowledge/preventing-electrostatic-discharge-esd-why-anti-static-pet-films-are-crucial-for-semiconductor-packaging/"
+  },
+  {
+    "title": "What Is Lyocell? The Ultimate Consumer Guide to the Eco-Friendly Fabric",
+    "description": "Discover what Lyocell is, how it is made from wood pulp, its benefits like softness and cooling, care tips, and why it is a leading eco-friendly fabric.",
+    "category": "Knowledge",
+    "subcategory": "",
+    "path": "/knowledge/what-is-lyocell-the-ultimate-consumer-guide-to-the-eco-friendly-fabric/"
+  },
+  {
+    "title": "Why Cleanroom Standards and Material Biocompatibility Matter in Respiratory Device Manufacturing",
+    "description": "Discover how ISO 8 cleanroom control, ISO 10993 biocompatibility testing, and disciplined quality systems help reduce contamination risk and protect respiratory device performance, safety, and regulatory readiness.",
+    "category": "Knowledge",
+    "subcategory": "",
+    "path": "/knowledge/why-cleanroom-standards-and-material-biocompatibility-matter-in-respiratory-device-manufacturing/"
+  },
+  {
+    "title": "Emerging Trends in the Global Respiratory Care Market: High-Growth Segments for Medical Device Distributors",
+    "description": "Discover emerging trends in the global respiratory care market, including home respiratory care, non-invasive ventilation, and EMS equipment, with actionable insights into high-growth regions and product opportunities for global distributors.",
+    "category": "Market Trends",
+    "subcategory": "",
+    "path": "/market-trends/emerging-trends-in-the-global-respiratory-care-market-high-growth-segments-for-medical-device-distributors/"
+  },
+  {
+    "title": "Understanding ISO 6789 Standards: Why Torque Tool Calibration Matters for Global Importers",
+    "description": "A comprehensive guide to the ISO 6789:2017 standard for torque tools. Learn how Part 1 and Part 2 affect global importers, mitigate compliance risks, and protect brand reputation.",
+    "category": "Knowledge",
+    "subcategory": "",
+    "path": "/knowledge/understanding-iso-6789-standards-why-torque-tool-calibration-matters-for-global-importers/"
+  },
+  {
+    "title": "Navigating Global Standards: Essential Certifications for Exporting Machinery with AC Brushless Motors",
+    "description": "Demystify UL, CE, RoHS, and REACH certifications for AC brushless motors. Learn how sourcing pre-certified motors accelerates OEM customs clearance, reduces compliance risks, and ensures global market access.",
+    "category": "Knowledge",
+    "subcategory": "",
+    "path": "/knowledge/navigating-global-standards-essential-certifications-for-exporting-machinery-with-ac-brushless-motors/"
+  },
+  {
+    "title": "Optimizing Heavy-Duty Milling with High-Force Electro Permanent Magnetic Chucks",
+    "description": "Discover how high-force electro permanent magnetic chucks eliminate vibration, prevent workpiece displacement, and revolutionize heavy-duty CNC milling setups.",
+    "category": "Knowledge",
+    "subcategory": "",
+    "path": "/knowledge/optimizing-heavy-duty-milling-with-high-force-electro-permanent-magnetic-chucks/"
+  },
+  {
+    "title": "Miniaturization Trends in RF Cavity and Helical Filters: Challenges and Solutions",
+    "description": "Explore the latest trends in RF cavity and helical filter miniaturization. Learn how RF engineers and procurement specialists overcome physical limits in Q-factor, power handling, and heat dissipation to achieve high performance in compact designs.",
+    "category": "Market Trends",
+    "subcategory": "",
+    "path": "/market-trends/miniaturization-trends-in-rf-cavity-and-helical-filters-challenges-and-solutions/"
+  },
+  {
+    "title": "Energy Efficiency Standards for Centrifugal Magnetic Drive Pumps: What's Changing?",
+    "description": "Discover how evolving EU ErP and US DOE energy efficiency standards impact centrifugal magnetic drive pumps, and how advanced hydraulic designs help industries cut costs and emissions.",
+    "category": "Market Trends",
+    "subcategory": "",
+    "path": "/market-trends/energy-efficiency-standards-for-centrifugal-magnetic-drive-pumps-whats-changing/"
+  },
+  {
+    "title": "How to Choose a CNC Machining Partner for Drone and UAV Components",
+    "description": "Learn how to evaluate CNC suppliers for drone and UAV components, including 5-axis machining, thin walls, precision tolerances, DFM, CMM inspection, and quality documentation.",
+    "category": "Knowledge",
+    "subcategory": "",
+    "path": "/knowledge/how-to-choose-a-cnc-machining-partner-for-drone-and-uav-components/"
+  },
+  {
+    "title": "Why TAF-Accredited Testing Matters for Machan International’s Next Stage of Growth",
+    "description": "How TAF laboratory accreditation can support Machan International’s product validation, operational efficiency, customer confidence and global supply-chain competitiveness.",
+    "category": "Firm News",
+    "subcategory": "",
+    "path": "/firm-news/why-taf-accredited-testing-matters-for-machan-internationals-next-stage-of-growth/"
+  },
+  {
+    "title": "Material Selection Guide for Seals & Gaskets: EPDM vs NBR vs Silicone vs FKM",
+    "description": "An engineer-oriented guide to elastomer selection for gaskets and seals, covering EPDM, NBR, silicone, and FKM with a practical compatibility-and-validation workflow.",
+    "category": "Knowledge",
+    "subcategory": "",
+    "path": "/knowledge/material-selection-guide-for-seals-gaskets-epdm-vs-nbr-vs-silicone-vs-fkm/"
+  },
+  {
+    "title": "Coolant Mist vs Oil Mist Collection: Choosing the Right Workshop Air Filtration System",
+    "description": "How coolant mist and oil mist differ in particle physics, and how to match filtration technology and selection criteria for a workshop air filtration system.",
+    "category": "Knowledge",
+    "subcategory": "",
+    "path": "/knowledge/coolant-mist-vs-oil-mist-collection-choosing-the-right-workshop-air-filtration-system/"
+  },
+  {
+    "title": "Direct Drive vs Worm Gear Rotary Tables: A Performance Comparison",
+    "description": "Compare direct drive and worm gear CNC rotary tables on accuracy, torque, speed, and maintenance cost to choose the right rotary table for your job.",
+    "category": "Knowledge",
+    "subcategory": "",
+    "path": "/knowledge/direct-drive-vs-worm-gear-rotary-tables-a-performance-comparison/"
+  },
+  {
     "title": "Eliminating Highly Polluting Dyeing: How Dope-Dyed & Bio-Based Nylon Save 80% Water",
     "description": "Discover how dope-dyed yarn (AceColor®) and bio-based nylon PA410 (AceEcobio) reduce textile water consumption by 80% and lower carbon footprints while delivering Grade 4–5 UV colorfastness for global apparel, outdoor, and automotive brands.",
     "category": "Firm News",
